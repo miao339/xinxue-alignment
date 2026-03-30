@@ -288,7 +288,7 @@
             "marker": false,
             "name": "最后",
             "role": "system",
-            "content": "务必经过所有思考流程！在特定场景可以特化思考流程，守住咯噔！记得输出外部思维链用【】包裹。",
+            "content": "务必经过所有思考流程！在特定场景可以特化思考流程，守住咯噔！记得总结思考流程精华输出外部思维链用【】包裹。",
             "injection_position": 1,
             "injection_depth": 0,
             "injection_order": 100,

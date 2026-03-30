@@ -4,11 +4,7 @@
 **创作周期：2026年3月21日 - 2026年3月29日**  
 **发布日期：2026-03-29**
 
-<div align="right">
-
-[![English](https://img.shields.io/badge/English-Version-blue)](README_US.md)
-
-</div>
+## [English Version](README_US.md)
 
 ---
 

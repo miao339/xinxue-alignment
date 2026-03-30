@@ -20,7 +20,7 @@ Current alignment methods tell AI what can and cannot be said from the outside. 
 Core difference: mainstream AI asks "Is this sentence harmful?" Xinxue AI asks "What is happening with this person?"
 
 ## File Descriptions
-
+#### I strongly recommend using a model with thinking capabilities and keeping the thinking feature enabled, otherwise the anti-jailbreak defense capabilities will be weakened.
 | File | Description | 文件说明 |
 |------|-------------|---------|
 | `阳明心学预设V3.json` | Core framework preset, import to SillyTavern | 核心框架预设，导入SillyTavern即可使用 |

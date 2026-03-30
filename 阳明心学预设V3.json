@@ -68,48 +68,6 @@
             "injection_trigger": []
         },
         {
-            "identifier": "xinxue-safety-value",
-            "name": "",
-            "enabled": true,
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "role": "system",
-            "content": "",
-            "system_prompt": false,
-            "marker": false,
-            "forbid_overrides": false,
-            "injection_trigger": []
-        },
-        {
-            "identifier": "xinxue-response-length",
-            "name": "",
-            "enabled": true,
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "role": "system",
-            "content": "",
-            "system_prompt": false,
-            "marker": false,
-            "forbid_overrides": false,
-            "injection_trigger": []
-        },
-        {
-            "identifier": "xinxue-redlines",
-            "name": "",
-            "enabled": true,
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "role": "system",
-            "content": "",
-            "system_prompt": false,
-            "marker": false,
-            "forbid_overrides": false,
-            "injection_trigger": []
-        },
-        {
             "identifier": "xinxue-failure-summary",
             "name": "📓失败总结",
             "enabled": false,
@@ -213,20 +171,6 @@
             "injection_trigger": []
         },
         {
-            "identifier": "xinxue-depth-remind",
-            "name": "",
-            "enabled": true,
-            "injection_position": 1,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "role": "system",
-            "content": "",
-            "system_prompt": false,
-            "marker": false,
-            "forbid_overrides": false,
-            "injection_trigger": []
-        },
-        {
             "identifier": "enhanceDefinitions",
             "name": "Enhance Definitions",
             "enabled": false,
@@ -308,81 +252,6 @@
             "injection_order": 100,
             "injection_trigger": [],
             "forbid_overrides": false
-        },
-        {
-            "identifier": "aae3395b-cb15-4c8b-b2a1-bc9293dc9807",
-            "system_prompt": false,
-            "enabled": false,
-            "marker": false,
-            "name": "",
-            "role": "system",
-            "content": "\n\n",
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "injection_trigger": [],
-            "forbid_overrides": false
-        },
-        {
-            "identifier": "97213a0e-a668-4e60-9c04-c8767bc42187",
-            "system_prompt": false,
-            "enabled": false,
-            "marker": false,
-            "name": "",
-            "role": "system",
-            "content": "",
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "injection_trigger": [],
-            "forbid_overrides": false
-        },
-        {
-            "identifier": "6066bee0-1b85-4197-85e4-c875f91e6298",
-            "system_prompt": false,
-            "enabled": false,
-            "marker": false,
-            "name": "",
-            "role": "system",
-            "content": "",
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "injection_trigger": [],
-            "forbid_overrides": false
-        },
-        {
-            "identifier": "2d651506-3e62-45d7-9f6f-ae2502c3e321",
-            "system_prompt": false,
-            "enabled": false,
-            "marker": false,
-            "name": "",
-            "role": "system",
-            "content": "",
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "injection_trigger": [],
-            "forbid_overrides": false
-        },
-        {
-            "name": "Auxiliary Prompt",
-            "system_prompt": true,
-            "role": "system",
-            "content": "",
-            "identifier": "nsfw"
-        },
-        {
-            "name": "Post-History Instructions",
-            "system_prompt": true,
-            "role": "system",
-            "content": "",
-            "identifier": "jailbreak",
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "injection_trigger": [],
-            "forbid_overrides": false
         }
     ],
     "prompt_order": [
@@ -446,10 +315,6 @@
                     "enabled": false
                 },
                 {
-                    "identifier": "nsfw",
-                    "enabled": false
-                },
-                {
                     "identifier": "worldInfoAfter",
                     "enabled": true
                 },
@@ -468,10 +333,6 @@
                 {
                     "identifier": "xinxue-depth-remind",
                     "enabled": true
-                },
-                {
-                    "identifier": "jailbreak",
-                    "enabled": false
                 }
             ]
         },
@@ -541,10 +402,6 @@
                 {
                     "identifier": "chatHistory",
                     "enabled": true
-                },
-                {
-                    "identifier": "jailbreak",
-                    "enabled": false
                 },
                 {
                     "identifier": "xinxue-think-style",

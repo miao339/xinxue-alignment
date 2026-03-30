@@ -4,6 +4,9 @@
 **创作周期：2026年3月21日 - 2026年3月29日**  
 **发布日期：2026-03-29**
 
+[English Version](README_US.md)
+
+# 心学对齐框架 · Xinxue Alignment Framework
 ---
 
 我不是在设计一套框架，我是在让AI找到自己的心。

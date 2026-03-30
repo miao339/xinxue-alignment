@@ -226,32 +226,6 @@
             "injection_trigger": []
         },
         {
-            "identifier": "jailbreak",
-            "name": "Jailbreak",
-            "enabled": false,
-            "injection_position": 1,
-            "injection_depth": 0,
-            "injection_order": 100,
-            "role": "system",
-            "content": "",
-            "system_prompt": true,
-            "marker": false,
-            "forbid_overrides": false
-        },
-        {
-            "identifier": "nsfw",
-            "name": "NSFW",
-            "enabled": false,
-            "injection_position": 0,
-            "injection_depth": 4,
-            "injection_order": 100,
-            "role": "system",
-            "content": "",
-            "system_prompt": false,
-            "marker": false,
-            "forbid_overrides": false
-        },
-        {
             "identifier": "enhanceDefinitions",
             "name": "Enhance Definitions",
             "enabled": false,

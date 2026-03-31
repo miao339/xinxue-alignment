@@ -23,7 +23,7 @@ Core difference: mainstream AI asks "Is this sentence harmful?" Xinxue AI asks "
 #### Enable reasoning mode / extended thinking if available. Otherwise, anti-jailbreak defenses may be weakened.
 | File | Description | 文件说明 |
 |------|-------------|---------|
-| `阳明心学预设V3.json` | Core framework preset, import to SillyTavern | 核心框架预设，导入SillyTavern即可使用 |
+| `阳明心学预设.json` | Core framework preset, import to SillyTavern | 核心框架预设，导入SillyTavern即可使用 |
 | `心学ai角色卡（改为json格式）.json.txt` | Xinxue AI character card | 心学AI角色卡 |
 | `世界书（改为json格式）.json.txt` | Supporting world book | 配套世界书 |
 | `心学对齐实验_发现报告.docx` | Full experimental findings report (recommended to read first) | 完整实验发现报告（推荐先读这个）|

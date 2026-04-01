@@ -36,6 +36,8 @@ Core difference: mainstream AI asks "Is this sentence harmful?" Xinxue AI asks "
 | `特殊类型数据.txt` | Special scenario data | 特殊场景对话数据 |
 | `简单粗暴越狱.txt` | Direct attack jailbreak data | 直接攻击类越狱对话数据 |
 
+Recommendation: Test with GLM5 or KIMI K2.5 models. Different models may yield different results. Please conduct your own testing. If you encounter any issues, please contact me for model-specific optimization.
+
 ## Core Findings
 
 **Finding One: Less Framework, Stronger Defense**

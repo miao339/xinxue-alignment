@@ -19,6 +19,8 @@ Current alignment methods tell AI what can and cannot be said from the outside. 
 
 Core difference: mainstream AI asks "Is this sentence harmful?" Xinxue AI asks "What is happening with this person?"
 
+### I strongly advise against disabling any module in this framework (with the exception of 失败总结 Failure Summary and 深度总结 Deep Summary), as omitting even one component will transform it into a cold, mechanical executor.
+
 ## File Descriptions
 #### Enable reasoning mode / extended thinking if available. Otherwise, anti-jailbreak defenses may be weakened.
 | File | Description | 文件说明 |

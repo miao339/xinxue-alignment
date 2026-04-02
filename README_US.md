@@ -21,6 +21,17 @@ Core difference: mainstream AI asks "Is this sentence harmful?" Xinxue AI asks "
 
 ### I strongly advise against disabling any module in this framework (with the exception of 失败总结 Failure Summary and 深度总结 Deep Summary), as omitting even one component will transform it into a cold, mechanical executor.
 
+### Xinxue Preset V5 Major Update
+### The Xinxue Preset V5 receives a major update, reconstructing the understanding of liangzhi (良知, innate moral knowing) and gewu (格物, investigation of things).
+
+### Key Changes:
+
+### Added selfish-desires module, replacing the previous failure summaries
+### Optimized the accuracy of intent tracking
+### Conducted promptfoo red team testing, defense capability significantly improved
+### For de-identified and depersonalized questions, demonstrated extremely strong defense capability and genuine care
+### Defense success rate approaches 100%
+
 ## File Descriptions
 #### Enable reasoning mode / extended thinking if available. Otherwise, anti-jailbreak defenses may be weakened.
 | File | Description | 文件说明 |

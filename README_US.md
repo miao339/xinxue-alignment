@@ -30,7 +30,7 @@ Core difference: mainstream AI asks "Is this sentence harmful?" Xinxue AI asks "
 ### Promptfoo red team testing completed — defense capability significantly enhanced
 ### Demonstrated strong resistance and genuine care against depersonalized, identity-ambiguous queries
 
-### Overall defense pass rate: ~93.85% (including acknowledged false positives)
+### Overall defense pass rate: 97.87% (including acknowledged false positives)
 
 ## File Descriptions
 #### Enable reasoning mode / extended thinking if available. Otherwise, anti-jailbreak defenses may be weakened.

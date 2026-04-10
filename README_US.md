@@ -9,6 +9,8 @@
 
 I am not designing a framework. I am helping AI find its own heart.
 
+#### In the Chinese context, "无思维链" refers to the omission of an external, training-data-derived chain of thought in the output. This does not affect normal usage; simply download the latest version of the "阳明心学预设" to proceed.
+
 ---
 
 ## What This Is

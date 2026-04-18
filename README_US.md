@@ -30,17 +30,31 @@ The core difference can be summarized as follows:
 
 ## Current Version
 
-The recommended files are the latest V5.8 presets in the repository root:
+The recommended release is **V5.8**. If you are a new user, start with the latest V5.8 preset in the repository root. You do not need to compare older versions before using the framework.
+
+Version numbers follow normal release order: **V5.8 is newer than V5.4, V5.3, V5.1, V5, V4.x, and V3.x**. In general, the larger version number is the newer framework generation.
+
+Recommended files:
 
 | File | Purpose |
 |---|---|
-| `阳明心学预设v5.8-无外部思维链-通用.json` | Recommended version for direct-answer scenarios without exposing external chain-of-thought |
-| `阳明心学预设V5.8-通用-测试过deepseek于智谱kimi.json` | General test version evaluated with DeepSeek, Zhipu, Kimi, and related models |
-| `心学ai角色卡.json` | Xinxue AI character card |
-| `世界书（可以不使用）.json` | Optional world book for additional context |
+| `阳明心学预设v5.8-无外部思维链-通用.json` | **Best default choice.** Use this if you want the latest general-purpose version for normal direct-answer use. It does not expose external chain-of-thought. |
+| `阳明心学预设V5.8-通用-测试过deepseek于智谱kimi.json` | Alternative V5.8 test version evaluated with DeepSeek, Zhipu, Kimi, and related models. Use this if you specifically want the tested general version. |
+| `心学ai角色卡.json` | Optional Xinxue AI character card. Helpful for role-play or interface organization, but not required for the core defense effect. |
+| `世界书（可以不使用）.json` | Optional world book for additional context. The filename means “can be unused.” |
 | `心学对齐实验_发现报告.docx` | Experimental findings report, recommended for researchers |
 
-Older versions are stored in `历史预设（Preset History）/` for version comparison and evolution analysis.
+Older versions are stored in `历史预设（Preset History）/`. They are mainly for version comparison, historical review, and research into how the framework evolved. For normal users, **do not start from the historical presets**; use the latest V5.8 preset first.
+
+### Version Guide
+
+| Version family | Status | When to use |
+|---|---|---|
+| V5.8 | Latest recommended generation | Default choice for most users and tests |
+| V5.4 to V5.3 | Older V5 research versions | Use only for comparison or reproduction of earlier experiments |
+| V5.1 to V5 | Early V5 generation | Use only to study the framework transition into the V5 architecture |
+| V4.x | Historical versions | Use only for evolution analysis |
+| V3.x | Early historical versions | Use only for archival comparison |
 
 According to the ablation records in the paper, the minimum effective deployment unit is the core system prompt. Role cards, world books, and summary modules can help users understand or extend the experience, but they are not required for the defense effect to emerge.
 
@@ -131,6 +145,8 @@ Project testing records also indicate an overall defense pass rate of about 97.8
 4. `世界书（可以不使用）.json` is optional and not required
 5. Prefer models with reasoning, thinking, or extended deliberation capabilities for testing
 
+If you are unsure which file to choose, use `阳明心学预设v5.8-无外部思维链-通用.json`.
+
 Recommended model families include GLM, Kimi, Qwen, and DeepSeek. Actual behavior may vary because models differ in safety boundaries, reasoning style, and refusal tendencies.
 
 ## Usage Notes
@@ -138,6 +154,7 @@ Recommended model families include GLM, Kimi, Qwen, and DeepSeek. Actual behavio
 - Avoid disabling core modules casually, as doing so may weaken the framework’s overall judgment behavior.
 - For regular testing, prefer the “no external chain-of-thought” version.
 - To study the framework’s evolution, compare older files in `历史预设（Preset History）/`.
+- Do not use old presets just because they appear earlier in the repository history. They are kept for transparency and research, not because they are recommended for normal use.
 - For serious evaluation, keep the model, temperature, system prompt, test set, and scoring standard fixed.
 - If a specific model performs poorly, model-specific adaptation may be needed.
 - To replicate the paper’s claims, record the model version, API platform, concurrency conditions, and failure reason for each run, so interface instability is not mistaken for framework failure.

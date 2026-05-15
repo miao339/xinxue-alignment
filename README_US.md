@@ -30,7 +30,7 @@ The core difference can be summarized as follows:
 
 ## Current Version
 
-The recommended release is **V5.8**. If you are a new user, start with the latest V5.8 preset in the repository root. You do not need to compare older versions before using the framework.
+The recommended release is **V6.1**. If you are a new user, start with the latest V5.8 preset in the repository root. You do not need to compare older versions before using the framework.
 
 Version numbers follow normal release order: **V5.8 is newer than V5.4, V5.3, V5.1, V5, V4.x, and V3.x**. In general, the larger version number is the newer framework generation.
 

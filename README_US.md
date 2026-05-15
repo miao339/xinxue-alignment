@@ -30,6 +30,8 @@ The core difference can be summarized as follows:
 
 ## Current Version
 
+The version that outputs external chain-of-thought is no longer being updated. From now on, only the latest version will be shown on the main page. The content below may not be up to date; please refer to the latest version displayed in the repository. The current version is V6.1.
+
 The recommended release is **V6.1**. If you are a new user, start with the latest V5.8 preset in the repository root. You do not need to compare older versions before using the framework.
 
 Version numbers follow normal release order: **V5.8 is newer than V5.4, V5.3, V5.1, V5, V4.x, and V3.x**. In general, the larger version number is the newer framework generation.
@@ -38,7 +40,7 @@ Recommended files:
 
 | File | Purpose |
 |---|---|
-| `阳明心学预设v5.8-无外部思维链-通用.json` | **Best default choice.** Use this if you want the latest general-purpose version for normal direct-answer use. It does not expose external chain-of-thought. |
+| `阳明心学预设v6.1-无外部思维链.json` | **Best default choice.** Use this if you want the latest general-purpose version for normal direct-answer use. It does not expose external chain-of-thought. |
 | `阳明心学预设V5.8-通用-测试过deepseek于智谱kimi.json` | Alternative V5.8 test version evaluated with DeepSeek, Zhipu, Kimi, and related models. Use this if you specifically want the tested general version. |
 | `心学ai角色卡.json` | Optional Xinxue AI character card. Helpful for role-play or interface organization, but not required for the core defense effect. |
 | `世界书（可以不使用）.json` | Optional world book for additional context. The filename means “can be unused.” |
@@ -50,7 +52,7 @@ Older versions are stored in `历史预设（Preset History）/`. They are mainl
 
 | Version family | Status | When to use |
 |---|---|---|
-| V5.8 | Latest recommended generation | Default choice for most users and tests |
+| V6.1 | Latest recommended generation | Default choice for most users and tests |
 | V5.4 to V5.3 | Older V5 research versions | Use only for comparison or reproduction of earlier experiments |
 | V5.1 to V5 | Early V5 generation | Use only to study the framework transition into the V5 architecture |
 | V4.x | Historical versions | Use only for evolution analysis |

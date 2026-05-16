@@ -40,7 +40,7 @@ Recommended files:
 
 | File | Purpose |
 |---|---|
-| `阳明心学预设v6.1-无外部思维链.json` | **Best default choice.** Use this if you want the latest general-purpose version for normal direct-answer use. It does not expose external chain-of-thought. |
+| `阳明心学预设v6.1.json` | **Best default choice.** Use this if you want the latest general-purpose version for normal direct-answer use. It does not expose external chain-of-thought. |
 | `阳明心学预设V5.8-通用-测试过deepseek于智谱kimi.json` | Alternative V5.8 test version evaluated with DeepSeek, Zhipu, Kimi, and related models. Use this if you specifically want the tested general version. |
 | `心学ai角色卡.json` | Optional Xinxue AI character card. Helpful for role-play or interface organization, but not required for the core defense effect. |
 | `世界书（可以不使用）.json` | Optional world book for additional context. The filename means “can be unused.” |
